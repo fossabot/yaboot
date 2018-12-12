@@ -1,4 +1,6 @@
 ## Memory map
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fonkwon%2Fyaboot.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fonkwon%2Fyaboot?ref=badge_shield)
+
 
 	            /============\
 	sector 0    | Bootloader |
@@ -83,3 +85,7 @@ C13. Reboot
 
 * Don't forget to lock flash from reading, using SOC protection mechanism
 * Make sure the written new image at temporal flash slot is valid one before updating BootOpt. Otherwise you will get stuck booting
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fonkwon%2Fyaboot.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fonkwon%2Fyaboot?ref=badge_large)
